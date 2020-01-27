@@ -3,7 +3,7 @@ var express  = require('express');
 var app      = express();
 var aws      = require('aws-sdk');
 var queueUrl = "https://sqs.us-east-2.amazonaws.com/595032649461/MyFirstQueue";
-var receipt  = "";
+var receipt  = "AQEBU8pBvKa5GNnwVRutzHcDUSbv4ynFk7S4NGXqjCmb4iLJ0hQZ6gKMe/HqMBnVzWkgPul8xl9Qh/OttvAZFoG1DP/UrnElo4RtUsylGu86pIkZ/FY6a1XqnfO1l8kH6QqoXB6uWec6lzca5D8wQLb2nSFrzhd7mejqH9o7UpHY+/hTsAw02AXE4Qmswj3RBhQn99936j9pPMFjcqIfsGs8DjXcN16uJtoJn3z4e/K5vuFQsNQ/JuDU9niz5prQWmTAVY6RciEh3Pxek4Xt3gB7pbUVysVU1nKSZpr7Sv6/pYoTlJIsK+2lOkdgpS7mgtE71873wX4cHjDDufzuj8rL921R0tBDcJ3H2bfa4LeqGaoL4rOGEcl8evXzNWSYfBpnIe9AxFxMBxE+xLROmA5CVw==";
     
 // Load your AWS credentials and try to instantiate the object.
 aws.config.loadFromPath(__dirname + '/config.json');
